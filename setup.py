@@ -35,7 +35,6 @@ setup(
     description=xmlsec_setupinfo.description(),
     ext_modules=[_xmlsec],
     cmdclass={'build_ext': BuildExt},
-    setup_requires=xmlsec_setupinfo.requirements(),
     install_requires=xmlsec_setupinfo.requirements(),
     author="Bulat Gaifullin",
     author_email='support@mehcode.com',
